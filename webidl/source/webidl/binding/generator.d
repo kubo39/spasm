@@ -2458,7 +2458,7 @@ void generateJsDecoder(Decoder)(Decoder decoder, ref IndentedStringAppender a, r
       a.putLn(decoder.tree.toString);
       break;
     }
-    assert(false, "not implemented");
+//    assert(false, "not implemented");
   } else {
     a.putLn(["// ", decoder.tree.name]);
     a.putLn("// other");
